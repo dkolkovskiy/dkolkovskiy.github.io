@@ -1,9 +1,9 @@
 ---
 layout: featured
-title: Official Support
-icon: /assets/img/icons/american-sign-language-interpreting-solid.svg
-image: /assets/img/services/02.jpg
-description: Dedicated support quaerat parturient denouncing pleasure and praising pain was born and I will give you a complete.
+title: Mobile App Development
+icon: /assets/img/icons/ambulance-solid.svg
+image: /assets/img/services/03.jpg
+description: From concept to deployment, we provide solutions including UI/UX design, cross-platform compatibility, and seamless integration with existing systems.
 ---
 
 <div class="row">
@@ -21,7 +21,7 @@ description: Dedicated support quaerat parturient denouncing pleasure and praisi
 <div class="row">
     <div class="col-xl-6 col-lg-12">
         <div class="s-details-img mb-30">
-            <img src="{{site.baseurl}}/assets/img/service/2.jpg" alt="{{page.title}}">
+            <img src="{{site.baseurl}}/assets/img/service/3.jpg" alt="{{page.title}}">
         </div>
     </div>
     <div class="col-xl-6 col-lg-12">

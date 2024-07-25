@@ -3,47 +3,9 @@ layout: page
 title: Contact
 ---
 
-<!-- contact-area -->
-<section class="contact-area pb-70 pt-100">
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-4 col-md-4 text-center text-md-left mb-30">
-                <div class="contact-person">
-                    <h4>Micro Center.</h4>
-                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In dui magna posuere.</p>
-                    <a href="#" class=""><i class="far fa-calendar-alt"></i>Mon - Fri 9:00 am - 2:00 PM</a>
-                </div>
-            </div>
-            <div class="col-xl-4 col-md-4 text-center text-md-left mb-30">
-                <div class="contact-person">
-                    <h4>Enquiry Phone.</h4>
-                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In dui magna posuere.</p>
-                    <a href="#" class=""><i class="fas fa-phone"></i>(+01) 204 0234 2065</a>
-                </div>
-            </div>
-            <div class="col-xl-4 col-md-4 text-center text-md-left mb-30">
-                <div class="contact-person">
-                    <h4>Drop a line</h4>
-                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In dui magna posuere.</p>
-                    <a href="#" class=""><i class="far fa-envelope"></i>info@admin.net</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- contact-maps -->
-<div class="maps-area">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="maps">
-                    <a href="#"><img src="/assets/img/map.png" class="img-fluid" alt=""></a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- contact-form -->
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
 <section class="contact-form pb-100 pt-100">
     <div class="container">
         <div class="row">
@@ -56,19 +18,21 @@ title: Contact
         </div>
         <div class="row">
             <div class="col-md-8 offset-md-2">
-                <form id="contact-form" action="mail.php" class="contact-form" method="POST">
+                <form
+                    id="contactForm"
+                    >
                     <div class="row">
                         <div class="col-xl-6 col-lg-6 mb-20">
-                            <input name="name" type="text" placeholder="Name">
+                            <input id="name" name="name" type="text" placeholder="Name">
                         </div>
                         <div class="col-xl-6 col-lg-6 mb-20">
-                            <input name="email" type="email" placeholder="Email">
+                            <input type="email" id="email" name="email" required>
                         </div>
                         <div class="col-xl-12 mb-20">
-                            <input name="subject" type="text" placeholder="Subject">
+                            <input id="subject" name="subject" type="text" placeholder="Subject">
                         </div>
                         <div class="col-xl-12 mb-20">
-                            <textarea name="message" id="text-message" cols="30" rows="10" placeholder="Message*"></textarea>
+                            <textarea id="message" name="message" id="text-message" cols="30" rows="10" placeholder="Message*"></textarea>
                         </div>
                         <div class="col-xl-12 text-center">
                             <button class="btn" type="submit">Send Mail</button>
@@ -80,3 +44,22 @@ title: Contact
         </div>
     </div>
 </section>
+
+<script>
+    $('#contactForm').on('submit', function(event) {
+        event.preventDefault(); // Prevent the default form submission
+
+        $.ajax({
+            url: 'https://www.formbackend.com/f/d8904564867e75db',
+            method: 'POST',
+            data: $(this).serialize(),
+            dataType: 'json',
+            success: function(data) {
+                $('#responseMsg').text('Message sent successfully!');
+            },
+            error: function(xhr, status, error) {
+                $('#responseMsg').text('Error sending message. Please try again.');
+            }
+        });
+    });
+</script>

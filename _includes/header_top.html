@@ -1,24 +1,70 @@
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+<!-- Make sure you put this AFTER Leaflet's CSS -->
+ <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+ integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+ crossorigin=""></script>
+
+
+
+<div class="modal" id="myModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        
+            <div class="modal-header">
+                <h4 class="modal-title">Cyber Sun Headquaters</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            
+            <div class="modal-body">
+                <div id="map"></div>
+            </div>
+            
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
 <div class="header-top blue-bg">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-xl-6 col-lg-6 col-md-8 text-center text-md-left">
                 <div class="header-top-cta">
-                    <span><i class="fas fa-map-marker-alt"></i>1375 Ash Avenue</span>
-                    <span><i class="far fa-envelope-open"></i>info@example.com</span>
-                    <span><i class="fas fa-phone"></i>314-326-2990</span>
+                    <span data-toggle="modal" data-target="#myModal" onclick="$('#myModal').show()"><i  class="fas fa-map-marker-alt" ></i>430 Park Avenue</span>
+                    <span><i class="far fa-envelope-open"></i><a href="mailto:info@cyber-sun.com?subject=CyberSun email">info@cyber-sun.com</a></span>
                 </div>
             </div>
             <div class="col-xl-6 col-lg-6 col-md-4 text-center text-md-right">
                 <div class="top-social-links">
                     <span>Follow us:</span>
-                    <a href="{{site.facebook_url}}"><i class="fab fa-facebook-f"></i></a>
-                    <a href="{{site.twitter_url}}"><i class="fab fa-twitter"></i></a>
-                    <a href="{{site.pinterest_url}}"><i class="fab fa-pinterest-p"></i></a>
+                    <a href="{{site.facebook_url}}"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="{{site.twitter_url}}"><i class="fab fa-youtube"></i></a>
                     <div class="top-btn">
-                        <a href="#">Get a Quote</a>
+                        <a href="/pages/contact">Get a Quote</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+<script>
+    // Ensure the DOM is fully loaded
+    document.addEventListener('DOMContentLoaded', function() {
+        $('#myModal').on('shown.bs.modal', function (e) {
+
+            var map = L.map('map').setView([40.761, -73.97228], 18);
+
+            L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {maxZoom: 19,attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'}).addTo(map);
+            var marker = L.marker([40.761, -73.97228]).addTo(map);
+            });
+    });
+
+    
+</script>
