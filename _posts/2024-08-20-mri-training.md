@@ -18,8 +18,8 @@ description: Cutting-edge VR Training for Complex MRI Machines
 			<h3><i class="fa-solid fa-circle-arrow-down"></i> Video presentation </h3>
 			
 			<div class="video-container">
-		   	<iframe  src="https://www.youtube.com/embed/ZsLdeaUQbcY?si=M_vqmSlc0eEZEMI_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-			 </div>
+			<iframe src="https://www.youtube.com/embed/NK2ubP03P3s?si=1sBzgzR1H_4I5stw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+			
 		</div>
     </div>
 </div>
@@ -92,5 +92,5 @@ description: Cutting-edge VR Training for Complex MRI Machines
 
 
 <div class="video-container">
-		   	<iframe  src="https://www.youtube.com/embed/0RQUd74nnTM?si=tQ6k6QamUgm8UXB-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+			<iframe src="https://www.youtube.com/embed/gv5YLej5gkU?si=TihlGFCLBCQ9BZxS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
