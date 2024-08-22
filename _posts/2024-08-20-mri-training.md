@@ -6,7 +6,7 @@ tags: technology education mri health
 categories: [immersive]
 author: "Denis Kolkovskiy"
 post_image: "/assets/img/projects/mri_training/mri_training_2.png"
-description: Cutting-edge VR Training for Complex MRI Machines
+description: VR Training for Complex MRI Machines
 ---
 
 <div class="row">
