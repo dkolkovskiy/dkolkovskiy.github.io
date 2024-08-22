@@ -2,7 +2,7 @@
 layout: project
 title: "MRI training"
 date: 2019-02-01 20:37:13 +0600
-tags: technology education
+tags: technology education mri health
 categories: [immersive]
 author: "Denis Kolkovskiy"
 post_image: "/assets/img/projects/mri_training/mri_training_2.png"

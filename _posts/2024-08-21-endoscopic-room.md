@@ -2,7 +2,7 @@
 layout: project
 title: "VR Endoscopy training"
 date: 2019-02-01 20:37:13 +0600
-tags: technology visualisation
+tags: technology visualisation health
 categories: [immersive]
 author: "Denis Kolkovskiy"
 post_image: "/assets/img/projects/endoscopic_room/room_4.png"
