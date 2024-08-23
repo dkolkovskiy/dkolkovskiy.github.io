@@ -31,9 +31,28 @@ description: MoCap animations for the hotel industry
             <li><span class="lnr lnr-star"></span> Realistic Character Movement</li>
             <li><span class="lnr lnr-star"></span> Improved Learner Engagement</li>
             <li><span class="lnr lnr-star"></span> Efficient Content Creation</li>
-
+			<li><span class="lnr lnr-star"></span> 3D Avatar Creation</li>
          </ul>
-         <p>&nbsp;</p>
       </div>
    </div>
 </div>
+<h2><i class="fa-solid fa-triangle-exclamation"></i> Project</h2>
+
+<p> The VR training is tailored specifically for the hotel industry, aiming to provide a highly immersive and realistic learning experience. At the client's request, CyberSun was tasked with creating lifelike 3D avatars, bringing them to life through detailed animations. This endeavor required the development of hundreds of unique scenes and animations, each meticulously crafted to simulate real-world situations encountered in the hotel environment. Our focus was on ensuring that these virtual interactions were as engaging and authentic as possible, enhancing the overall training effectiveness for hotel staff.
+</p>
+
+<h2><i class="fa-solid fa-square-poll-vertical"></i> Solution</h2>
+<p><i class="fa-regular fa-star"></i> In the initial stage, the team collaborated with the client to develop the instructional design, establishing the visual style for the environment as well as the main and background characters.  </p>
+
+<p><i class="fa-regular fa-star"></i> With the script finalized, it was time to bring the characters to life! Professional actors portrayed the roles in the VR training, providing authentic performances for the motion capture process.</p>
+
+<p><i class="fa-regular fa-star"></i> A team of 3D artists, character specialists, and animators then crafted detailed avatars and applied motion capture animations to enhance realism.
+</p>
+
+<p><i class="fa-regular fa-star"></i> The result was an immersive and engaging VR training experience, meticulously delivered to meet the client's objectives. </p>
+
+ <h3><i class="fa-solid fa-trophy"></i> Studio details</h3>
+ <p><i class="fa-regular fa-star"></i> The main focus of the studio is the real-time optical motion capture of objects, with the capability of subsequent digital reproduction and transferring all motion parameters to virtual models. 
+
+The principle of operation is based on the camera's registration of reflected infrared light with a wavelength of 850 nm. After capturing the reflected IR points, the camera's built-in processor calculates and transmits the flat coordinates (as well as a monochrome image) to the software computational complex up to 360 times per second. The computational complex receives data from all cameras over a 10 Gbit/s Ethernet network, processes it, and outputs the spatial coordinates of each reflected point in real time.   </p>
+ 
