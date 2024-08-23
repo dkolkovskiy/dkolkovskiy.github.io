@@ -3,19 +3,17 @@ layout: page
 title: Blog
 ---
 
-what's that?
-
-{% include blog_area.html %}
 
 <div class="basic-blog-area gray-bg pt-100 pb-100">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 blog-post-items">
-              {% for post in paginator.posts %}
+                {% for post in site.posts %}
+                {% if post.layout == 'post' %}
                 <div class="blog-wrapper mb-40">
                     <div class="blog-thumb">
                         <a href="{{post.url}}">
-                            <img class="img-fluid" src="{{post.post_image}}" alt="{{post.title}}"/>
+                            <img class="img-fluid" src="{{post.post_image}}" alt="{{post.title}}" />
                         </a>
                     </div>
                     <div class="meta-info">
@@ -33,11 +31,11 @@ what's that?
                         <a href="{{post.url}}">Read More</a>
                     </div>
                 </div>
-              {% endfor %}
-             {% include pagination.html %}
+                {% endif %}
+                {% endfor %}
             </div>
             <div class="col-lg-4 sm-mt sidebar-blog right-side">
-             {% include sidebar.html %}
+             {% include sidebar.html type = "post"%}
             </div>
         </div>
     </div>

@@ -3,15 +3,14 @@
         <div class="row">
             <div class="col-xl-12 text-center pb-40">
                 <div class="section-title service-title">
-                    <h2>Latest Blog</h2>
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                        alteration in some form,words which don't look even slightly believable.</p>
+                    <h2>Latest Insights</h2>
+                    <p>The CyberSun team is excited to share insights on the latest innovations in technology with you. Stay tuned for more updates!</p>
                 </div>
             </div>
         </div>
         <div class="row">
             {% for post in site.posts %}
-				{% if post.layout == 'project' %}
+				{% if post.layout == 'post' %}
             <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
                 <div class="blog-wrapper home-blog-wrapper white-bg">
                     <div class="blog-thumb">
