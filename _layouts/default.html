@@ -51,7 +51,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/d73715f9a3.js" crossorigin="anonymous"></script>
-   
+
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/icofont.min.css">
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/linearicons.css">
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/slick.css">
@@ -66,8 +66,18 @@
     {% feed_meta %}
 </head>
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-83ZBZ2Y3BP"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-83ZBZ2Y3BP');
+</script>
+
 <body>
-    
+
     {{content}}
 
     {% include footer.html %}
