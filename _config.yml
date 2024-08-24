@@ -1,6 +1,6 @@
 title: "CyberSun Solutions is an IT consulting firm specializing in immersive business solutions, AI innovations, and custom software development."
 email: "info@cyber-sun.com"
-description: >- # this means to ignore newlines until "baseurl:"
+description: >- # this means  to ignore newlines until "baseurl:"
     CyberSun Solutions is an IT consulting firm specializing in immersive business solutions, AI innovations, and custom software development.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com or  https://tradejk.netlify.com
