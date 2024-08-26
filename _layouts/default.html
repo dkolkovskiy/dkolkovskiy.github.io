@@ -66,25 +66,7 @@
     {% feed_meta %}
 </head>
 
-<script>
-    (function (w, d, s, o, f, js, fjs) {
-        w["botsonic_widget"] = o;
-        w[o] =
-            w[o] ||
-            function () {
-                (w[o].q = w[o].q || []).push(arguments);
-            };
-        (js = d.createElement(s)), (fjs = d.getElementsByTagName(s)[0]);
-        js.id = o;
-        js.src = f;
-        js.async = 1;
-        fjs.parentNode.insertBefore(js, fjs);
-    })(window, document, "script", "Botsonic", "https://widget.botsonic.com/CDN/botsonic.min.js");
-    Botsonic("init", {
-        serviceBaseUrl: "https://api-azure.botsonic.ai",
-        token: "268c3732-2e28-491e-aa3f-7b8a2eec16fd",
-    });
-</script>
+
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-83ZBZ2Y3BP"></script>
@@ -118,6 +100,10 @@
     <script src="{{site.baseurl}}/assets/js/scrollup.min.js"></script>
     <script src="{{site.baseurl}}/assets/js/simple-jekyll-search.min.js"></script>
     <script src="{{site.baseurl}}/assets/js/main.js"></script>
+
+    <script>window.$zoho = window.$zoho || {}; $zoho.salesiq = $zoho.salesiq || { ready: function () { } }</script>
+    <script id="zsiqscript" src="https://salesiq.zohopublic.eu/widget?wc=siq6dc44bbecc33d162391ad741831e0ec3c393c6fe474dfef188f64d04835915bc" defer></script>
+
 </body>
 
 </html>
