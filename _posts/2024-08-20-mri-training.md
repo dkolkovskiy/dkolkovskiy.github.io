@@ -15,7 +15,7 @@ description: VR Training for Complex MRI Machines
       <p>The foremost advantage of VR training is its ability to significantly boost ROI—once developed, the training can be reused across the entire organization or for multiple clients. This successful case demonstrates how VR can reduce costs associated with traditional on-site, in-person education. At CyberSun, we excel in overcoming VR training's biggest challenge—user adoption—by crafting intuitive, user-friendly experiences that rely solely on hand interactions.</p>
       <h3><i class="fa-solid fa-circle-arrow-down"></i> Video presentation </h3>
       <div class="video-container">
-         <iframe src="https://www.youtube.com/embed/NK2ubP03P3s?si=lQCbOMd-5LWfcsAy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+         <iframe src="https://www.youtube.com/embed/de-ROXnf_lg?si=OXNL_5sw3AzXGcvY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
    </div>
 </div>
