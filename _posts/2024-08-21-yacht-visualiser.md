@@ -18,7 +18,7 @@ description: Cutting-edge VR Yacht visualiser
 			<h3><i class="fa-solid fa-circle-arrow-down"></i> Video presentation </h3>
 			
 			<div class="video-container">
-		   	<iframe src="https://www.youtube.com/embed/T23v6lt6h4g?si=Ah9gEuYjjZNb5OHU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		   	<iframe src="https://www.youtube.com/embed/5y9u0vmOBYs?si=YTXCu8doPUX4zlBo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 			 </div>
 		</div>
     </div>
