@@ -10,7 +10,7 @@ description: Cutting-edge VR Yacht visualiser
 ---
 <div class="row">
 	<div class="col-xl-6 col-lg-12">
-		<h3><i class="fa-solid fa-circle-arrow-down"></i> Ready to become an investor? </h3>
+		<h3><i class="fa-solid fa-trophy"></i> Ready to become an investor? </h3>
     </div>
     <div class="col-xl-6 col-lg-12">
 		 <div class="top-btn">
@@ -54,7 +54,7 @@ description: Cutting-edge VR Yacht visualiser
 
 <div class="row">
 	<div class="col-xl-6 col-lg-12">
-		<h3><i class="fa-solid fa-circle-arrow-down"></i> Want to create an immersive product for your business? </h3> 
+		<h3><i class="fa-solid fa-trophy"></i> Want to create an immersive product for your business? </h3> 
     </div>
     <div class="col-xl-6 col-lg-12">
 		 <div class="top-btn">
