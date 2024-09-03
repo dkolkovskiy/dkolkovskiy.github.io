@@ -237,10 +237,11 @@ label {
 	padding: 13px 0;
 	transition: .3s;
 }
-.top-btn {
+
+.top-btn, .body-btn {
 	display: inline-block;
 }
-.top-btn a {
+.top-btn a, .body-btn a {
 	color:white;
     text-transform: capitalize;
     background: #5171FF;
