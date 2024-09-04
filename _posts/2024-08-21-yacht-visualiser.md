@@ -15,10 +15,22 @@ description: Cutting-edge VR Yacht visualiser
     <div class="col-xl-6 col-lg-12">
 		 <div class="body-btn">
 			<a href="/pages/contact">Lets talk!</a>
-			</div>
+		</div>
     </div>
 </div>
 
+<div class="row" >
+	<div class="col-xl-6 col-lg-12">
+		
+    </div>
+    <div class="col-xl-6 col-lg-12"  style="border:1px solid #bcc5d4;background-color:#ebeef2;padding:10px;">
+			<img style="width:50px;height:50px" src="{{site.baseurl}}/assets/img/avatar/denis.jpeg" > 
+			<i class="fa-brands fa-linkedin"></i> Denis Kolkovskiy, CTO at CyberSun
+			<p>&nbsp;</p>
+			<i class="fa-regular fa-message"></i> <a href="https://www.linkedin.com/in/denis-kolkovskiy/">https://www.linkedin.com/in/denis-kolkovskiy/</a>
+    </div>
+</div>
+<p>&nbsp;</p>
 <div class="row">
     <div class="col-md-12">
         <div class="service-details mb-40">
